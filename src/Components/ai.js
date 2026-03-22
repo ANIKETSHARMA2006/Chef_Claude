@@ -5,18 +5,8 @@ You are a chef assistant.
 
 Create a recipe using given ingredients.
 
-Return ONLY in this format:
+Return ONLY in Markdown format: 
 
-Recipe Name:
-<name>
-
-Ingredients:
-- item 1
-- item 2
-
-Steps:
-1. step one
-2. step two
 `;
 
 // ✅ Correct way to use env variable

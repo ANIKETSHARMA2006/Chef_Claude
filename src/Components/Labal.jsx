@@ -6,7 +6,6 @@ const Labal = () => {
   
   const [ingredient, setingredient] = useState([])
   const [recipe, setrecipe] = useState('')
-
   const handleClick = (event) => {
     event.preventDefault()
     const formData = new FormData(event.currentTarget)
@@ -36,7 +35,7 @@ const Labal = () => {
       <ul className='unorder'>
         {TrueIngredient}
       </ul>
-      <Api ingredients={ingredient} recipe={recipe} getrecipe={getrecipe} setrecipe={setrecipe} />
+      <Api  ingredients={ingredient} recipe={recipe} getrecipe={getrecipe} setrecipe={setrecipe} />
     </>
   )
 }

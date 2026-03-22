@@ -1,6 +1,7 @@
 import React from 'react'
 import Response from './Response'
 const Api = (props) => {
+    
   return (
     <div>
     { props.ingredients?.length>0?
@@ -14,7 +15,7 @@ const Api = (props) => {
       </div>
     </div>: null }
 
-    <Response recipe={props.recipe} />
+    <Response display={props.display} recipe={props.recipe} ingredients={props.ingredients} />
     </div> 
   )
 }
